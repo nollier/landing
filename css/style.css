@@ -1,0 +1,108 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4, p {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: url("../images/karaoke.jpg");
+  height: 300px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  text-shadow: 0.8
+}
+
+.container h2 {
+  text-align: center;
+}
+
+h3 {
+  color: #FDD501;
+}
+
+
+p {
+  color: #F30402;
+  font-weight: bold;
+}
+
+.btn-copain {
+  background-color: rgb(240,240,240);
+  width: 50px;
+  height: 25px;
+  color: rgba(30,30,30,0.5);
+  font-weight: bold;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 8px 15px 10px 15px;
+  border-radius: 5px;
+}
+
+.btn-copain:hover {
+  background-color: rgba(30,30,30,0.5);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  color: white;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer {
+  background-image: url("../images/confeti2.png");
+}
+.pour-toi-h2 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.next-event {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-yours {
+  background-color: #CC0000;
+  width: 50px;
+  height: 25px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+}
+
+.btn-yours:hover {
+  background-color: white;
+  color: #CC0000;
+  border: solid #CC0000;
+}
+
+
